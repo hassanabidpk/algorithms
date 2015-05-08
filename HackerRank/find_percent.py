@@ -37,9 +37,8 @@ for i in range(3):
 	total_score += float(studentsDict[findname][i])
 	print total_score
 
-average_score = total_score/3.0
-print "average Score : " + str(average_score)
-# if findname in name:
+average_score = total_score/3
+print ("%.2f" % average_score)# if findname in name:
 #     print "YES"
 # else:
 #     print "NO"
