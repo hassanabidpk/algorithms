@@ -68,8 +68,10 @@ class TestQuickSortPartition(unittest.TestCase):
 		self.assertListEqual(r2,self.output2)
 
 	def test_quicksort(self):
-		self.result = quicksort(self.ar1)
-		self.assertListEqual(self.result,[1,2,3,3,4,5,8])
+		self.result1 = quicksort(self.ar1)
+		self.result2 = quicksort(self.ar2)
+		self.assertListEqual(self.result1,[1,2,3,3,4,5,8])
+		self.assertListEqual(self.result2,[1,2,3,4,5,6,7,8])
 
 
 if __name__ == '__main__':
