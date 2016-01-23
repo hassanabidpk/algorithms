@@ -1,6 +1,7 @@
-# Algorithms - Practice as you learn algorithms with Python and Java 
+# Algorithms 
+---
+Practice as you learn with Python,Java & Swift 
 
-### Algorithms
 - [x] Quick Sort
 - [x] Merge Sort
 - [x] Binary Search Tree
